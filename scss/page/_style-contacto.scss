@@ -1,0 +1,31 @@
+/* ESTILO PAGINA CONTACTO*/
+main {
+    .contacto {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        form {
+            label {
+                color: #fff;
+                font-family: 'Dosis', sans-serif;
+                display: block;
+            }
+
+            .input_nombre:focus {
+                border: 4px solid #f00;
+            }
+
+            .input_numero:focus {
+                border: 4px solid #f00;
+            }
+
+            .input_email:focus {
+                border: 4px solid #f00;
+            }
+
+            .input_mensaje:focus {
+                border: 4px solid #f00;
+            }
+        }
+    }
+}

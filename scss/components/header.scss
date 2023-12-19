@@ -1,0 +1,94 @@
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        margin: 10px;
+        width: 100px;
+        background-color: #000;
+
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 5px;
+        align-items: first baseline;
+    }
+
+    nav {
+        div {
+            button {
+                .navbar-toggler {
+                    background-color: #fff;
+                }
+
+                .navbar-toggler-icon {
+                    background-color: #000;
+                }
+            }
+
+            div {
+                ul {
+                    background-color: #000;
+                    list-style: none;
+
+                    li {
+                        .nav-item {
+                            
+                            color: #fff;
+                            font-size: 25px;
+                            font-family: 'Dosis', sans-serif;
+                        }
+
+                        a { 
+                            
+                            .nav-link {   
+                                color: #fff;
+                                
+                            }
+                            &:visited {
+                                color: #fff !important;
+                            }
+
+                            &:hover {
+                                text-shadow: 5px 5px 10px #fff;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-item {
+        color: #fff;
+        font-size: 25px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    /*piso estilo que daba bootstrap*/
+    .nav-link {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+
+    }
+
+
+    /*sombra al navegador*/
+    *a:hover {
+        text-shadow: 5px 5px 10px #fff;
+        color: #fff;
+    }
+}

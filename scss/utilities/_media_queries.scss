@@ -1,0 +1,156 @@
+/*ESTILO MEDIA QUERY TABLET*/
+@media(max-width: 1024px) {
+    header {
+        .redes {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1px;
+            padding: 5px;
+            align-items: first baseline;
+        }
+    }
+
+    /*estilo discografía*/
+    .discos {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0px;
+
+        img {
+            height: auto;
+            width: auto;
+              
+        }
+    }
+
+    .eps {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0px;
+
+        img {
+            height: auto;
+            width: auto;
+        }
+
+    }
+
+    .simples {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0px;
+
+        img {
+            height: auto;
+            width: auto;
+        }
+    }
+
+    /*estilo tienda */
+    .tienda {
+        width: 100vw;
+        margin: 0px 0px 45% 0px;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        button {
+            display: grid;
+        }
+
+        .boton {
+            margin: 0px 0px 0px 0px;
+
+        }
+
+        .boton2 {
+            margin: 0px 0px 0px 0px;
+
+        }
+    }
+}
+
+/*ESTILO MEDIA QUERY MOBILE*/
+@media(max-width: 768px) {
+    header {
+        .redes {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1px;
+            padding: 5px;
+            align-items: first baseline;
+        }
+    }
+
+    /*estilo discografía*/
+    .discos {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0px;
+
+        img {
+            height: auto;
+            width: auto;
+
+        }
+    }
+
+    .eps {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0px;
+
+        img {
+            height: auto;
+            width: auto;
+        }
+
+    }
+
+    .simples {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+        gap: 5px;
+        padding: 0px;
+
+        img {
+            height: auto;
+            width: auto;
+        }
+    }
+
+    /*estilo tienda */
+    .tienda {
+        margin: 0px 0px 45% 0px;
+
+        button {
+            display: grid;
+        }
+
+        .boton {
+            margin: 0px 0px 0px 0px;
+
+        }
+
+        .boton2 {
+            margin: 0px 0px 0px 0px;
+
+        }
+    }
+
+}
